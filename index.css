@@ -1,0 +1,163 @@
+.main-wrapper {
+    color: hsl(30, 38%, 92%);
+    box-sizing: border-box;
+}
+.section-container {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 8%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: none;
+    flex-grow: none;
+}
+.imgg {
+    max-width: 40%;
+    height: 40%;
+    border-right: 1px solid;
+   
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+.names {
+    color: hsl(212, 21%, 14%);
+    font-size: 35px;
+    padding: 0px 45px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+.right-container {
+    box-shadow: 1px 1px 1px 1px rgba(240, 232, 232, 0.75);
+    background-color: hsl(0, 0%, 100%);
+    max-width: 50%;
+    height: 455px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: start;
+}
+.para {
+    color: hsl(228, 12%, 48%);
+    padding: 15px;
+    display: flex;
+    padding: 0px 45px;
+}
+.title {
+    color: hsl(228, 12%, 48%);
+    font-size: 15px;
+    position: relative;
+    right: 23%;
+}
+.price {
+    color: hsl(158, 36%, 37%);
+    font-size: 32px;
+    margin-top: -1px;
+    padding-right: 195px;
+}
+.strikes {
+    color: hsl(228, 12%, 48%);
+    font-size: 15px;
+    position: relative;
+    top: -55px;
+    right: 8px;
+}
+.btn {
+    border: none;
+    border-radius: 4px;
+    width: 65%;
+    background-color: hsl(158, 45%, 24%);
+    height: 10%;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: hsl(157, 51%, 19%);
+    cursor: pointer;
+}
+
+@media all and (max-width: 1509px) {
+    .section-container {
+        margin-top: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       flex-direction: column;
+    }
+    .title{
+        margin-top:-50px;
+    }
+    .price {
+        color: hsl(158, 36%, 37%);
+        font-size: 32px;
+        margin-top: -1px;
+        padding-right: 195px;
+    }
+    .names{
+        color: hsl(212, 21%, 14%);
+        font-size: 30px;
+        padding: 0px 45px;
+        margin-top: -16px;
+        
+    }
+    .right-container {
+        box-shadow: 1px 1px 1px 1px rgba(240, 232, 232, 0.75);
+        background-color: hsl(0, 0%, 100%);
+        margin: auto;
+        max-width: 39.4%; 
+        
+    }
+    .imgg {
+       border-top-right-radius: 2%;
+       border-bottom-left-radius: 0%;
+        
+    }
+    .name {
+        color: hsl(212, 21%, 14%);
+        font-size: 35px;
+        padding: 0px 45px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+    }
+    .para {
+        color: hsl(228, 12%, 48%);
+        margin-top:-19px;
+        padding: 0px 45px;
+        font-size: 17px;
+    }
+    .title {
+        color: hsl(228, 12%, 48%);
+        font-size: 13px;
+        
+    }
+    .price {
+        color: hsl(158, 36%, 37%);
+        font-size: 30px;
+        position: relative;
+        margin-top:8px;
+        top: -16px;
+        right:-40px;
+    }
+    .strikes {
+        color: hsl(228, 12%, 48%);
+        font-size: 15px;
+        position: relative;
+        top: -65px;
+        right: -18px;
+    }
+    .btn {
+        border: none;
+        border-radius: 4px;
+        margin-top:-39px;
+        width: 65%;
+        background-color: hsl(158, 45%, 24%);
+        height: 10%;
+        color: white;
+    }
+}
